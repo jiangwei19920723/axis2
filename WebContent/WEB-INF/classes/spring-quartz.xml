@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	 <!-- oa流程状态循环调度 -->
+	 <bean id="forGetFlowState"
+		class="cn.jcloud.srm.quartz.ForGetFlowState" ></bean>
+	<bean id="forGetFlowStateDetail"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="forGetFlowState" />
+		<property name="targetMethod" value="run" />
+		<property name="concurrent" value="false" />
+	</bean>
+	<bean id="forGetFlowStateCronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail" ref="forGetFlowStateDetail" />
+		<property name="cronExpression">
+			<value>0 0/3 * * * ?</value>
+		</property>
+	</bean>
+	<!-- 物料同步循环调度 -->
+	 <bean id="getMaterial"
+		class="cn.jcloud.srm.quartz.GetMaterial" ></bean>
+	<bean id="getMaterialDetail"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="getMaterial" />
+		<property name="targetMethod" value="run" />
+		<property name="concurrent" value="false" />
+	</bean>
+	<bean id="getMaterialCronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail" ref="getMaterialDetail" />
+		<property name="cronExpression">
+			<value>0 0 3 * * ?</value>
+		</property>
+	</bean>
+	
+	<!-- mes配送单循环调度 -->
+	 <bean id="SendMESDeliverynote"
+		class="cn.jcloud.srm.quartz.SendMESDeliverynote" ></bean>
+	<bean id="SendMESDeliverynoteDetail"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="SendMESDeliverynote" />
+		<property name="targetMethod" value="run" />
+		<property name="concurrent" value="false" />
+	</bean>
+	<bean id="SendMESDeliverynoteCronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail" ref="SendMESDeliverynoteDetail" />
+		<property name="cronExpression">
+			<value>0 0/3 * * * ?</value>
+		</property>
+	</bean>
+	
+	<!-- sap采购价格调度 -->
+	 <bean id="SendSAPRecord"
+		class="cn.jcloud.srm.quartz.SendSAPRecord" ></bean>
+	<bean id="SendSAPRecordDetail"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="SendSAPRecord" />
+		<property name="targetMethod" value="run" />
+		<property name="concurrent" value="false" />
+	</bean>
+	<bean id="SendSAPRecordCronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail" ref="SendSAPRecordDetail" />
+		<property name="cronExpression">
+			<value>0 0/3 * * * ?</value>
+		</property>
+	</bean>
+	
+	<!-- sap采购合同调度 -->
+	 <bean id="SendVendorContract"
+		class="cn.jcloud.srm.quartz.SendVendorContract" ></bean>
+	<bean id="SendVendorContractDetail"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="SendVendorContract" />
+		<property name="targetMethod" value="run" />
+		<property name="concurrent" value="false" />
+	</bean>
+	<bean id="SendVendorContractCronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail" ref="SendVendorContractDetail" />
+		<property name="cronExpression">
+			<value>0 0 0/1 * * ?</value>
+		</property>
+	</bean>
+	<!-- sap采购状态 -->
+	 <bean id="SendSAPPostatus"
+		class="cn.jcloud.srm.quartz.SendSAPPostatus" ></bean>
+	<bean id="SendSAPPostatusDetail"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="SendSAPPostatus" />
+		<property name="targetMethod" value="run" />
+		<property name="concurrent" value="false" />
+	</bean>
+	<bean id="SendSAPPostatusCronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail" ref="SendSAPPostatusDetail" />
+		<property name="cronExpression">
+			<value>0 0/3 * * * ?</value>
+		</property>
+	</bean>
+	<!-- sap结算确认 -->
+	 <bean id="SendSAPconfirm"
+		class="cn.jcloud.srm.quartz.SendSAPconfirm" ></bean>
+	<bean id="SendSAPconfirmDetail"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="SendSAPconfirm" />
+		<property name="targetMethod" value="run" />
+		<property name="concurrent" value="false" />
+	</bean>
+	<bean id="SendSAPconfirmCronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail" ref="SendSAPconfirmDetail" />
+		<property name="cronExpression">
+			<value>0 0/3 * * * ?</value>
+		</property>
+	</bean>
+	 
+	<!-- 总管理类 如果将lazy-init='false'那么容器启动就会执行调度程序   -->
+	<bean id="startQuertz" lazy-init="false" autowire="no"
+		class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="triggers">
+			<list>
+				<ref bean="forGetFlowStateCronTrigger" />
+				<ref bean="getMaterialCronTrigger" />
+				<ref bean="SendMESDeliverynoteCronTrigger" />
+				<ref bean="SendSAPRecordCronTrigger" />
+				<ref bean="SendVendorContractCronTrigger" />
+				<ref bean="SendSAPPostatusCronTrigger" />
+				<ref bean="SendSAPconfirmCronTrigger" />
+				
+			</list>
+		</property>
+		<property name="configLocation" value="classpath:quartz.properties" />
+		<property name="startupDelay" value="5"/>
+	</bean>
+
+</beans>

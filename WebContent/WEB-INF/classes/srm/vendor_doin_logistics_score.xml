@@ -1,0 +1,119 @@
+<formExport version="2.0">
+  <summary id="-6275182284177125847" name="formmain_0495"/>
+  <definitions/>
+  <values>
+    <column name="经理审批意见">
+      <value/>
+    </column>
+    <column name="总经理审批意见">
+      <value/>
+    </column>
+    <column name="message_score_vendor">
+      <value>messageScoreVendor</value>
+    </column>
+    <column name="on_time_score_vendor">
+      <value>onTimeScoreVendor</value>
+    </column>
+    <column name="package_score_vendor">
+      <value>packageScoreVendor</value>
+    </column>
+    <column name="human_score_vendor">
+      <value>humanScoreVendor</value>
+    </column>
+    <column name="capacity_score_vendor">
+      <value>capacityScoreVendor</value>
+    </column>
+    <column name="storehouse_score_vendor">
+      <value>storehouseScoreVendor</value>
+    </column>
+    <column name="sum_score_vendor">
+      <value>sumScoreVendor</value>
+    </column>
+    <column name="message_score_factory">
+      <value>messageScoreFactory</value>
+    </column>
+    <column name="on_time_score_factory">
+      <value>onTimeScoreFactory</value>
+    </column>
+    <column name="package_score_factory">
+      <value>packageScoreFactory</value>
+    </column>
+    <column name="human_score_factory">
+      <value>humanScoreFactory</value>
+    </column>
+    <column name="capacity_score_factory">
+      <value>capacityScoreFactory</value>
+    </column>
+    <column name="storehouse_score_factory">
+      <value>storehouseScoreFactory</value>
+    </column>
+    <column name="sum_score_factory">
+      <value>sumScoreFactory</value>
+    </column>
+    <column name="logistics_advantage">
+      <value>logisticsAdvantage</value>
+    </column>
+    <column name="logistics_inferiority">
+      <value>logisticsInferiority</value>
+    </column>
+    <column name="logistics_conclusion">
+      <value>logisticsConclusion</value>
+    </column>
+    <column name="logistics_level">
+      <value>logisticsLevel</value>
+    </column>
+    <column name="logistics_yes_or_no">
+      <value>logisticsYesOrNo</value>
+    </column>
+  </values>
+  <subForms>
+    <subForm>
+      <definitions>
+        <column id="field0022" type="0" name="vendor_name" length="255"/>
+        <column id="field0023" type="0" name="vendor_mail" length="255"/>
+        <column id="field0024" type="0" name="contact" length="255"/>
+        <column id="field0025" type="0" name="telephone" length="255"/>
+      </definitions>
+      <values>
+        <row>
+          <column name="vendor_name">
+            <value>vendorName</value>
+          </column>
+          <column name="vendor_mail">
+            <value>vendorMail</value>
+          </column>
+          <column name="contact">
+            <value>contact</value>
+          </column>
+          <column name="telephone">
+            <value>telephone</value>
+          </column>
+        </row>
+      </values>
+    </subForm>
+    <subForm>
+      <definitions>
+        <column id="field0026" type="0" name="classfy_one" length="255"/>
+        <column id="field0027" type="0" name="classfy_two" length="255"/>
+        <column id="field0028" type="0" name="classfy_three" length="255"/>
+        <column id="field0029" type="0" name="classfy_four" length="255"/>
+      </definitions>
+      <values>
+        <row>
+          <column name="classfy_one">
+            <value>classfyOne</value>
+          </column>
+          <column name="classfy_two">
+            <value>classfyTwo</value>
+          </column>
+          <column name="classfy_three">
+            <value>classfyThree</value>
+          </column>
+          <column name="classfy_four">
+            <value>classfyFour</value>
+          </column>
+        </row>
+      </values>
+    </subForm>
+  </subForms>
+</formExport>

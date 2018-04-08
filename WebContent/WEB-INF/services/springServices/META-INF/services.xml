@@ -1,0 +1,175 @@
+<serviceGroup>
+<service name="MaterialService">
+	<description>生产性物料主数据接收接口</description>
+	<parameter name="SpringBeanName">MaterialService</parameter>  
+      <parameter name="ServiceObjectSupplier">org.apache.axis2.extensions.spring.receivers.SpringServletContextObjectSupplier</parameter>    
+
+	<messageReceivers>  
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-only" class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver" />  
+            <messageReceiver  mep="http://www.w3.org/ns/wsdl/in-out"  class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>  
+    </messageReceivers> 
+</service>
+<service name="VendorService">
+	<description>供应商主数据接收接口</description>
+	<parameter name="SpringBeanName">VendorService</parameter>  
+      <parameter name="ServiceObjectSupplier">org.apache.axis2.extensions.spring.receivers.SpringServletContextObjectSupplier</parameter>    
+
+	<messageReceivers>  
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-only" class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver" />  
+            <messageReceiver  mep="http://www.w3.org/ns/wsdl/in-out"  class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>  
+    </messageReceivers> 
+</service>
+<service name="AclabService">
+	<description>生产性物料采购计划发布发送接口</description>
+	<parameter name="SpringBeanName">AclabService</parameter>  
+      <parameter name="ServiceObjectSupplier">org.apache.axis2.extensions.spring.receivers.SpringServletContextObjectSupplier</parameter>    
+
+	<messageReceivers>  
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-only" class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver" />  
+            <messageReceiver  mep="http://www.w3.org/ns/wsdl/in-out"  class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>  
+    </messageReceivers> 
+</service>
+<service name="PoService">
+	<description>生产性物料采购计划发布发送接口(试制)</description>
+	<parameter name="SpringBeanName">PoService</parameter>  
+      <parameter name="ServiceObjectSupplier">org.apache.axis2.extensions.spring.receivers.SpringServletContextObjectSupplier</parameter>    
+
+	<messageReceivers>  
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-only" class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver" />  
+            <messageReceiver  mep="http://www.w3.org/ns/wsdl/in-out"  class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>  
+    </messageReceivers> 
+</service>
+<service name="AcgrService">
+	<description>生产性物料采购收货信息发送接口</description>
+	<parameter name="SpringBeanName">AcgrService</parameter>  
+      <parameter name="ServiceObjectSupplier">org.apache.axis2.extensions.spring.receivers.SpringServletContextObjectSupplier</parameter>    
+
+	<messageReceivers>  
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-only" class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver" />  
+            <messageReceiver  mep="http://www.w3.org/ns/wsdl/in-out"  class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>  
+    </messageReceivers> 
+</service>
+<service name="AcsettleService">
+	<description>生产性物料采购结算信息接口</description>
+	<parameter name="SpringBeanName">AcsettleService</parameter>  
+      <parameter name="ServiceObjectSupplier">org.apache.axis2.extensions.spring.receivers.SpringServletContextObjectSupplier</parameter>    
+
+	<messageReceivers>  
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-only" class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver" />  
+            <messageReceiver  mep="http://www.w3.org/ns/wsdl/in-out"  class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>  
+    </messageReceivers> 
+</service>
+<service name="AcinvoiceService">
+	<description>生产性物料发票处理接口</description>
+	<parameter name="SpringBeanName">AcinvoiceService</parameter>  
+      <parameter name="ServiceObjectSupplier">org.apache.axis2.extensions.spring.receivers.SpringServletContextObjectSupplier</parameter>    
+
+	<messageReceivers>  
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-only" class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver" />  
+            <messageReceiver  mep="http://www.w3.org/ns/wsdl/in-out"  class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>  
+    </messageReceivers> 
+</service>
+<service name="AcsettleConfirmService">
+	<description>生产性物料采购结算信息确认接口</description>
+	<parameter name="SpringBeanName">AcsettleConfirmService</parameter>  
+      <parameter name="ServiceObjectSupplier">org.apache.axis2.extensions.spring.receivers.SpringServletContextObjectSupplier</parameter>    
+
+	<messageReceivers>  
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-only" class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver" />  
+            <messageReceiver  mep="http://www.w3.org/ns/wsdl/in-out"  class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>  
+    </messageReceivers> 
+</service>
+<service name="VendorFileIOService">
+	<description>PLM设计文件传输接口</description>
+	<parameter name="SpringBeanName">VendorFileIOService</parameter>  
+      <parameter name="ServiceObjectSupplier">org.apache.axis2.extensions.spring.receivers.SpringServletContextObjectSupplier</parameter>    
+
+	<messageReceivers>  
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-only" class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver" />  
+            <messageReceiver  mep="http://www.w3.org/ns/wsdl/in-out"  class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>  
+    </messageReceivers> 
+</service>
+<service name="WMStoSRM_MaterialPlanService">
+	<description>MES要料计划</description>
+	<parameter name="SpringBeanName">WMStoSRM_MaterialPlanService</parameter>  
+      <parameter name="ServiceObjectSupplier">org.apache.axis2.extensions.spring.receivers.SpringServletContextObjectSupplier</parameter>    
+
+	<messageReceivers>  
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-only" class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver" />  
+            <messageReceiver  mep="http://www.w3.org/ns/wsdl/in-out"  class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>  
+    </messageReceivers> 
+</service>
+<service name="WMStoSRM_ASNService">
+	<description>MES ASN单入库信息</description>
+	<parameter name="SpringBeanName">WMStoSRM_ASNService</parameter>  
+      <parameter name="ServiceObjectSupplier">org.apache.axis2.extensions.spring.receivers.SpringServletContextObjectSupplier</parameter>    
+
+	<messageReceivers>  
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-only" class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver" />  
+            <messageReceiver  mep="http://www.w3.org/ns/wsdl/in-out"  class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>  
+    </messageReceivers> 
+</service>
+<service name="WMStoSRM_ReturnedService">
+	<description>MES WMS退货单</description>
+	<parameter name="SpringBeanName">WMStoSRM_ReturnedService</parameter>  
+      <parameter name="ServiceObjectSupplier">org.apache.axis2.extensions.spring.receivers.SpringServletContextObjectSupplier</parameter>    
+
+	<messageReceivers>  
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-only" class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver" />  
+            <messageReceiver  mep="http://www.w3.org/ns/wsdl/in-out"  class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>  
+    </messageReceivers> 
+</service>
+<service name="Cs3plService">
+	<description>拉动需求（WMS发布给三方物流拉动需求）</description>
+	<parameter name="SpringBeanName">Cs3plService</parameter>  
+      <parameter name="ServiceObjectSupplier">org.apache.axis2.extensions.spring.receivers.SpringServletContextObjectSupplier</parameter>    
+
+	<messageReceivers>  
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-only" class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver" />  
+            <messageReceiver  mep="http://www.w3.org/ns/wsdl/in-out"  class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>  
+    </messageReceivers> 
+</service>
+<service name="CsReceiptService">
+	<description>WMS系统收货单返回SRM系统</description>
+	<parameter name="SpringBeanName">CsReceiptService</parameter>  
+      <parameter name="ServiceObjectSupplier">org.apache.axis2.extensions.spring.receivers.SpringServletContextObjectSupplier</parameter>    
+
+	<messageReceivers>  
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-only" class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver" />  
+            <messageReceiver  mep="http://www.w3.org/ns/wsdl/in-out"  class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>  
+    </messageReceivers> 
+</service>
+<service name="CsReturnedService">
+	<description>WMS系统退货单同步SRM系统</description>
+	<parameter name="SpringBeanName">CsReturnedService</parameter>  
+      <parameter name="ServiceObjectSupplier">org.apache.axis2.extensions.spring.receivers.SpringServletContextObjectSupplier</parameter>    
+
+	<messageReceivers>  
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-only" class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver" />  
+            <messageReceiver  mep="http://www.w3.org/ns/wsdl/in-out"  class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>  
+    </messageReceivers> 
+</service>
+<service name="CsReturnedService">
+	<description>WMS系统退货单同步SRM系统</description>
+	<parameter name="SpringBeanName">CsReturnedService</parameter>  
+      <parameter name="ServiceObjectSupplier">org.apache.axis2.extensions.spring.receivers.SpringServletContextObjectSupplier</parameter>    
+
+	<messageReceivers>  
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-only" class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver" />  
+            <messageReceiver  mep="http://www.w3.org/ns/wsdl/in-out"  class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>  
+    </messageReceivers> 
+</service>
+<service name="CsPoService">
+	<description>SAP采购订单</description>
+	<parameter name="SpringBeanName">CsPoService</parameter>  
+      <parameter name="ServiceObjectSupplier">org.apache.axis2.extensions.spring.receivers.SpringServletContextObjectSupplier</parameter>    
+
+	<messageReceivers>  
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-only" class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver" />  
+            <messageReceiver  mep="http://www.w3.org/ns/wsdl/in-out"  class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>  
+    </messageReceivers> 
+</service>
+
+
+</serviceGroup>
+

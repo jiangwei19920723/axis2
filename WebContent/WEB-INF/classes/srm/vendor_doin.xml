@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<formExport version="2.0">
+  <summary id="-9045853549512798954" name="formmain_0209"/>
+  <definitions/>
+  <values>
+    <column name="审批意见">
+      <value/>
+    </column>
+    <column name="申请人">
+      <value>applyByName</value>
+    </column>
+    <column name="申请部门">
+      <value>applyDeptName</value>
+    </column>
+    <column name="申请编码">
+      <value>applyCode</value>
+    </column>
+    <column name="申请时间">
+      <value>applyTime</value>
+    </column>
+    <column name="相关附件">
+      <value>applyFile</value>
+    </column>
+    <column name="备注">
+      <value>remark</value>
+    </column>
+  </values>
+  <subForms>
+    <subForm>
+      <definitions>
+        <column id="field0008" type="4" name="序号" length="20"/>
+        <column id="field0009" type="0" name="单选按钮" length="5"/>
+        <column id="field0010" type="0" name="供应商名称" length="255"/>
+        <column id="field0011" type="0" name="供应商邮箱" length="255"/>
+        <column id="field0012" type="0" name="联系人" length="255"/>
+        <column id="field0013" type="0" name="联系电话" length="255"/>
+        <column id="field0014" type="0" name="法人代表" length="255"/>
+        <column id="field0015" type="0" name="信息一级" length="255"/>
+        <column id="field0016" type="0" name="二级" length="255"/>
+        <column id="field0017" type="0" name="三级" length="255"/>
+        <column id="field0018" type="0" name="四级" length="255"/>
+      </definitions>
+      <values>
+        <row>
+          <column name="序号">
+            <value>1</value>
+          </column>
+          <column name="单选按钮">
+            <value>0</value>
+          </column>
+          <column name="供应商名称">
+            <value>vendorName</value>
+          </column>
+          <column name="供应商邮箱">
+            <value>vendorMail</value>
+          </column>
+          <column name="联系人">
+            <value>contact</value>
+          </column>
+          <column name="联系电话">
+            <value>telephone</value>
+          </column>
+          <column name="法人代表">
+            <value>corporate</value>
+          </column>
+          <column name="信息一级">
+            <value>classfyOne</value>
+          </column>
+          <column name="二级">
+            <value>classfyTwo</value>
+          </column>
+          <column name="三级">
+            <value>classfyThree</value>
+          </column>
+          <column name="四级">
+            <value>classfyFour</value>
+          </column>
+        </row>
+      </values>
+    </subForm>
+  </subForms>
+</formExport>

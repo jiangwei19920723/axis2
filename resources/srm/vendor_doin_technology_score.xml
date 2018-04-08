@@ -1,0 +1,131 @@
+<formExport version="2.0">
+  <summary id="-1212838280581789236" name="formmain_0489"/>
+  <definitions/>
+  <values>
+    <column name="经理审批意见">
+      <value/>
+    </column>
+    <column name="总经理审批意见">
+      <value/>
+    </column>
+    <column name="diathesis_score_vendor">
+      <value>diathesisScoreVendor</value>
+    </column>
+    <column name="proportion_score_vendor">
+      <value>proportionScoreVendor</value>
+    </column>
+    <column name="design_score_vendor">
+      <value>designScoreVendor</value>
+    </column>
+    <column name="analysis_score_vendor">
+      <value>analysisScoreVendor</value>
+    </column>
+    <column name="evaluate_score_vendor">
+      <value>evaluateScoreVendor</value>
+    </column>
+    <column name="source_score_vendor">
+      <value>sourceScoreVendor</value>
+    </column>
+    <column name="sum_score_vendor">
+      <value>sumScoreVendor</value>
+    </column>
+    <column name="diathesis_score_factory">
+      <value>diathesisScoreFactory</value>
+    </column>
+    <column name="proportion_score_factory">
+      <value>proportionScoreFactory</value>
+    </column>
+    <column name="design_score_factory">
+      <value>designScoreFactory</value>
+    </column>
+    <column name="analysis_score_factory">
+      <value>analysisScoreFactory</value>
+    </column>
+    <column name="evaluate_score_factory">
+      <value>evaluateScoreFactory</value>
+    </column>
+    <column name="source_score_factory">
+      <value>sourceScoreFactory</value>
+    </column>
+    <column name="sum_score_factory">
+      <value>sumScoreFactory</value>
+    </column>
+    <column name="technology_advantage">
+      <value>technologyAdvantage</value>
+    </column>
+    <column name="technology_inferiority">
+      <value>technologyInferiority</value>
+    </column>
+    <column name="technology_conclusion">
+      <value>technologyConclusion</value>
+    </column>
+    <column name="technology_level">
+      <value>technologyLevel</value>
+    </column>
+    <column name="technology_yes_or_no">
+      <value>technologyYesOrNo</value>
+    </column>
+    <column name="introduction_score_vendor">
+      <value>introductionScoreVendor</value>
+    </column>
+    <column name="dfma_score_vendor">
+      <value>dfmaScoreVendor</value>
+    </column>
+    <column name="introduction_score_factory">
+      <value>introductionScoreFactory</value>
+    </column>
+    <column name="dfma_score_factory">
+      <value>dfmaScoreFactory</value>
+    </column>
+  </values>
+  <subForms>
+    <subForm>
+      <definitions>
+        <column id="field0026" type="0" name="vendor_name" length="255"/>
+        <column id="field0027" type="0" name="vendor_mail" length="255"/>
+        <column id="field0028" type="0" name="contact" length="255"/>
+        <column id="field0029" type="0" name="telephone" length="255"/>
+      </definitions>
+      <values>
+        <row>
+          <column name="vendor_name">
+            <value>vendorName</value>
+          </column>
+          <column name="vendor_mail">
+            <value>vendorMail</value>
+          </column>
+          <column name="contact">
+            <value>contact</value>
+          </column>
+          <column name="telephone">
+            <value>telephone</value>
+          </column>
+        </row>
+      </values>
+    </subForm>
+    <subForm>
+      <definitions>
+        <column id="field0030" type="0" name="classfy_one" length="255"/>
+        <column id="field0031" type="0" name="classfy_two" length="255"/>
+        <column id="field0032" type="0" name="classfy_three" length="255"/>
+        <column id="field0033" type="0" name="classfy_four" length="255"/>
+      </definitions>
+      <values>
+        <row>
+          <column name="classfy_one">
+            <value>classfyOne</value>
+          </column>
+          <column name="classfy_two">
+            <value>classfyTwo</value>
+          </column>
+          <column name="classfy_three">
+            <value>classfyThree</value>
+          </column>
+          <column name="classfy_four">
+            <value>classfyFour</value>
+          </column>
+        </row>
+      </values>
+    </subForm>
+  </subForms>
+</formExport>

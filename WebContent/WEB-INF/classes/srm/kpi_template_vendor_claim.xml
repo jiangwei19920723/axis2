@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<formExport version="2.0">
+  <summary id="4340938708501939428" name="formmain_0507"/>
+  <definitions/>
+  <values>
+    <column name="总监级领导意见">
+      <value/>
+    </column>
+    <column name="部门总经理意见">
+      <value/>
+    </column>
+    <column name="apply_dept">
+      <value>apply_dept</value>
+    </column>
+    <column name="apply_by">
+      <value>apply_by</value>
+    </column>
+    <column name="apply_phone">
+      <value>apply_phone</value>
+    </column>
+    <column name="apply_mail">
+      <value>apply_mail</value>
+    </column>
+    <column name="vendor_name">
+      <value>vendor_name</value>
+    </column>
+    <column name="vendor_code">
+      <value>vendor_code</value>
+    </column>
+    <column name="contact">
+      <value>contact</value>
+    </column>
+    <column name="vendor_telephone">
+      <value>vendor_telephone</value>
+    </column>
+    <column name="vendor_mail">
+      <value>vendor_mail</value>
+    </column>
+    <column name="template_adress">
+      <value>template_adress</value>
+    </column>
+    <column name="car_type">
+      <value>car_type</value>
+    </column>
+    <column name="template_time">
+      <value>template_time</value>
+    </column>
+    <column name="template">
+      <value>template</value>
+    </column>
+    <column name="template_type">
+      <value>template_type</value>
+    </column>
+    <column name="calim_details">
+      <value>claim_details</value>
+    </column>
+    <column name="calim_file">
+      <value>claim_file</value>
+    </column>
+  </values>
+  <subForms>
+    <subForm>
+      <definitions>
+        <column id="field0019" type="0" name="pj_template_type" length="255"/>
+        <column id="field0020" type="0" name="materiel_code" length="255"/>
+        <column id="field0021" type="0" name="materiel_name" length="255"/>
+        <column id="field0022" type="0" name="demage_number" length="255"/>
+        <column id="field0023" type="0" name="template_item_cont" length="255"/>
+        <column id="field0024" type="0" name="add_score" length="255"/>
+        <column id="field0025" type="0" name="removed_score" length="255"/>
+      </definitions>
+      <values>
+        <row>
+          <column name="pj_template_type">
+            <value>template_type</value>
+          </column>
+          <column name="demage_number">
+            <value>demage_number</value>
+          </column>
+          <column name="template_item_cont">
+            <value>template_item_cont</value>
+          </column>
+          <column name="add_score">
+            <value>add_score</value>
+          </column>
+          <column name="removed_score">
+            <value>removed_score</value>
+          </column>
+          <column name="detail_code">
+            <value>detail_code</value>
+          </column>
+        </row>
+      </values>
+    </subForm>
+    <subForm>
+      <definitions>
+       <column id="field0022" type="0" name="materiel_code" length="255" />
+       <column id="field0023" type="0" name="materiel_name" length="255" />
+      </definitions>
+      <values>
+       <row>
+        <column name="materiel_code">
+         <value>material_code</value>
+        </column>
+        <column name="materiel_name">
+         <value>material_name</value>
+        </column>
+       </row>
+      </values>
+     </subForm>
+  </subForms>
+</formExport>

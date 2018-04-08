@@ -1,0 +1,96 @@
+<formExport version="2.0">
+  <summary id="-8868848096939193511" name="formmain_0285"/>
+  <definitions/>
+  <values>
+    <column name="申请人">
+      <value>create_by</value>
+    </column>
+    <column name="备注">
+      <value>remark</value>
+    </column>
+    <column name="理由">
+      <value>reason</value>
+    </column>
+    <column name="变更编号">
+      <value>change_code</value>
+    </column>
+    <column name="车型">
+      <value>car_type</value>
+    </column>
+    <column name="切换时间">
+      <value>change_date</value>
+    </column>
+    <column name="变更依据">
+      <value>change_basis</value>
+    </column>
+    <column name="创建的时间">
+      <value>create_time</value>
+    </column>
+    <column name="创建人员">
+      <value>fixed_create_by</value>
+    </column>
+    <column name="变更摘要">
+      <value>change_remark</value>
+    </column>
+    <column name="项目工程师审核意见">
+      <value/>
+    </column>
+    <column name="项目总监审批意见">
+      <value/>
+    </column>
+  </values>
+  <subForms>
+    <subForm>
+      <definitions>
+        <column id="field0013" type="4" name="序号1" length="20"/>
+        <column id="field0014" type="0" name="序号2" length="5"/>
+        <column id="field0015" type="0" name="变更类型1" length="255"/>
+        <column id="field0016" type="0" name="变更前物料名称1" length="255"/>
+        <column id="field0017" type="0" name="变更前物料编码1" length="255"/>
+        <column id="field0018" type="0" name="变更前描述1" length="255"/>
+        <column id="field0019" type="0" name="变更前附件1" length="255"/>
+        <column id="field0020" type="0" name="变更后物料名称1" length="255"/>
+        <column id="field0021" type="0" name="变更后物料编码1" length="255"/>
+        <column id="field0022" type="0" name="变更后描述1" length="255"/>
+        <column id="field0023" type="0" name="变更后附件1" length="255"/>
+      </definitions>
+      <values>
+        <row>
+          <column name="序号1">
+            <value/>
+          </column>
+          <column name="序号2">
+            <value/>
+          </column>
+          <column name="变更类型1">
+            <value>change_type</value>
+          </column>
+          <column name="变更前物料名称1">
+            <value>before_item_name</value>
+          </column>
+          <column name="变更前物料编码1">
+			<value>before_item_code</value>
+          </column>
+          <column name="变更前描述1">
+           <value>before_remark</value>
+          </column>
+          <column name="变更前附件1">
+            <value>before_file</value>
+          </column>
+          <column name="变更后物料名称1">
+            <value>after_item_name</value>
+          </column>
+          <column name="变更后物料编码1">
+           <value>after_item_code</value>
+          </column>
+          <column name="变更后描述1">
+            <value>after_remark</value>
+          </column>
+          <column name="变更后附件1">
+            <value>after_file</value>
+          </column>
+        </row>
+      </values>
+    </subForm>
+  </subForms>
+</formExport>

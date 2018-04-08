@@ -1,0 +1,203 @@
+<formExport version="2.0">
+  <summary id="-2599888972648398664" name="formmain_0292"/>
+  <definitions/>
+  <values>
+    <column name="主题">
+      <value>theme</value>
+    </column>
+    <column name="车型">
+      <value>car_type</value>
+    </column>
+    <column name="备注">
+      <value>pr_remark</value>
+    </column>
+    <column name="主题2">
+      <value>theme1</value>
+    </column>
+    <column name="开始时间">
+      <value>begin_date</value>
+    </column>
+    <column name="有效期限">
+      <value>limited_duration</value>
+    </column>
+    <column name="备注信息1">
+      <value>pfp_remark</value>
+    </column>
+    <column name="主题1">
+      <value>theme2</value>
+    </column>
+    <column name="开始日期">
+      <value>create_date</value>
+    </column>
+    <column name="有效期限2">
+      <value>userful_time</value>
+    </column>
+    <column name="备注5">
+      <value>pc_remark</value>
+    </column>
+    <column name="主管审批意见">
+      <value/>
+    </column>
+    <column name="采购中心意见">
+      <value/>
+    </column>
+  </values>
+  <subForms>
+    <subForm>
+      <definitions>
+        <column id="field0014" type="4" name="序号" length="20"/>
+        <column id="field0015" type="0" name="序号1" length="5"/>
+        <column id="field0016" type="0" name="物料编码" length="255"/>
+        <column id="field0017" type="0" name="物料名称" length="255"/>
+        <column id="field0018" type="0" name="供应商编码" length="255"/>
+        <column id="field0019" type="0" name="供应商名称" length="255"/>
+        <column id="field0020" type="0" name="定点价格" length="255"/>
+        <column id="field0021" type="0" name="目标价格" length="255"/>
+        <column id="field0022" type="0" name="其它供应商报价" length="255"/>
+        <column id="field0023" type="0" name="备注信息" length="255"/>
+      </definitions>
+      <values>
+        <row>
+          <column name="序号">
+            <value/>
+          </column>
+          <column name="序号1">
+            <value/>
+          </column>
+          <column name="物料编码">
+            <value>item_code</value>
+          </column>
+          <column name="物料名称">
+            <value>item_name</value>
+          </column>
+          <column name="供应商编码">
+            <value>vendor_code</value>
+          </column>
+          <column name="供应商名称">
+            <value>vendor_name</value>
+          </column>
+          <column name="定点价格">
+            <value>price</value>
+          </column>
+          <column name="目标价格">
+            <value>target_price</value>
+          </column>
+          <column name="其它供应商报价">
+            <value>other_price</value>
+          </column>
+          <column name="备注信息">
+            <value>bg_remark</value>
+          </column>
+        </row>
+      </values>
+    </subForm>
+    <subForm>
+      <definitions>
+        <column id="field0024" type="4" name="序号2" length="20"/>
+        <column id="field0025" type="0" name="序号2.1" length="5"/>
+        <column id="field0026" type="0" name="物料编码2.3" length="255"/>
+        <column id="field0027" type="0" name="物料名称2.3" length="255"/>
+        <column id="field0028" type="0" name="计量单位2.3" length="255"/>
+        <column id="field0029" type="0" name="单价2.3" length="255"/>
+        <column id="field0030" type="0" name="套价2.3" length="255"/>
+        <column id="field0031" type="0" name="截止时间起2.3" length="255"/>
+        <column id="field0032" type="0" name="截止时间止2.3" length="255"/>
+        <column id="field0033" type="0" name="单位工装摊销2.3" length="255"/>
+        <column id="field0034" type="0" name="单价包装费2.3" length="255"/>
+        <column id="field0035" type="0" name="单价运输费2.3" length="255"/>
+        <column id="field0036" type="0" name="交付基地2.3" length="255"/>
+        <column id="field0037" type="0" name="供应商名称2.3" length="255"/>
+        <column id="field0038" type="0" name="备注2.3" length="255"/>
+      </definitions>
+      <values>
+        <row>
+          <column name="序号2">
+            <value/>
+          </column>
+          <column name="序号2.1">
+            <value/>
+          </column>
+          <column name="物料编码2.3">
+            <value>item_code</value>
+          </column>
+          <column name="物料名称2.3">
+            <value>item_name</value>
+          </column>
+          <column name="计量单位2.3">
+            <value>single_use</value>
+          </column>
+          <column name="单价2.3">
+            <value>price</value>
+          </column>
+          <column name="套价2.3">
+            <value>set_prive</value>
+          </column>
+          <column name="截止时间起2.3">
+            <value>start_time</value>
+          </column>
+          <column name="截止时间止2.3">
+            <value>end_time</value>
+          </column>
+          <column name="单位工装摊销2.3">
+			<value>single_tooling_fee</value>
+          </column>
+          <column name="单价包装费2.3">
+            <value>single_packing_fee</value>
+          </column>
+          <column name="单价运输费2.3">
+            <value>single_transport_fee</value>
+          </column>
+          <column name="交付基地2.3">
+            <value>base_factory</value>
+          </column>
+          <column name="供应商名称2.3">
+            <value>vendor_name</value>
+          </column>
+          <column name="备注2.3">
+            <value>dj_remark</value>
+          </column>
+        </row>
+      </values>
+    </subForm>
+    <subForm>
+      <definitions>
+        <column id="field0039" type="4" name="序号3" length="20"/>
+        <column id="field0040" type="0" name="序号3.1" length="5"/>
+        <column id="field0041" type="0" name="物料编码3.1" length="255"/>
+        <column id="field0042" type="0" name="物料名称3.1" length="255"/>
+        <column id="field0043" type="0" name="供应商编码3.1" length="255"/>
+        <column id="field0044" type="0" name="供应商名称3.1" length="255"/>
+        <column id="field0045" type="0" name="价格通知号3.1" length="255"/>
+        <column id="field0046" type="0" name="备注3.1" length="255"/>
+      </definitions>
+      <values>
+        <row>
+          <column name="序号3">
+            <value/>
+          </column>
+          <column name="序号3.1">
+            <value/>
+          </column>
+          <column name="物料编码3.1">
+            <value>item_code</value>
+          </column>
+          <column name="物料名称3.1">
+            <value>item_name</value>
+          </column>
+          <column name="供应商编码3.1">
+            <value>vendor_code</value>
+          </column>
+          <column name="供应商名称3.1">
+            <value>vendor_name</value>
+          </column>
+          <column name="价格通知号3.1">
+            <value>price_info</value>
+          </column>
+          <column name="备注3.1">
+            <value>pg_remark</value>
+          </column>
+        </row>
+      </values>
+    </subForm>
+  </subForms>
+</formExport>

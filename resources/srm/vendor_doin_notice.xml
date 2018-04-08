@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<formExport version="2.0">
+  <summary id="8446524751045805149" name="formmain_0228"/>
+  <definitions/>
+  <values>
+    <column name="主题">
+      <value>theme</value>
+    </column>
+    <column name="编号">
+      <value>noticeCode</value>
+    </column>
+    <column name="发出日期">
+      <value>sendTime</value>
+    </column>
+    <column name="有效期限">
+      <value>term</value>
+    </column>
+    <column name="备注">
+      <value>remark</value>
+    </column>
+    <column name="主题1">
+      <value>theme1</value>
+    </column>
+    <column name="通知书编号">
+      <value>noticeCode1</value>
+    </column>
+    <column name="发出时间">
+      <value>sendTime1</value>
+    </column>
+    <column name="备注3">
+      <value>qn_remark</value>
+    </column>
+    <column name="采购经理审批">
+      <value/>
+    </column>
+    <column name="采购总监审批">
+      <value/>
+    </column>
+  </values>
+  <subForms>
+    <subForm>
+      <definitions>
+        <column id="field0012" type="0" name="序号" length="5"/>
+        <column id="field0013" type="0" name="序号2" length="255"/>
+        <column id="field0014" type="0" name="域20" length="255"/>
+        <column id="field0015" type="0" name="供应商名称" length="255"/>
+        <column id="field0016" type="0" name="供应商等级" length="255"/>
+        <column id="field0017" type="0" name="对应基地" length="255"/>
+        <column id="field0018" type="0" name="备注2" length="255"/>
+        <column id="field0019" type="0" name="品类一级" length="255"/>
+        <column id="field0020" type="0" name="二级" length="255"/>
+        <column id="field0021" type="0" name="三级" length="255"/>
+        <column id="field0022" type="0" name="四级" length="255"/>
+        <column id="field0023" type="0" name="供应商编码" length="255"/>
+      </definitions>
+      <values>
+        <row>
+          <column name="序号">
+            <value/>
+          </column>
+          <column name="序号2">
+            <value/>
+          </column>
+          <column name="供应商名称">
+            <value>vendorName</value>
+          </column>
+          <column name="供应商等级">
+            <value>vendorLevel</value>
+          </column>
+          <column name="对应基地">
+            <value>baseFactory</value>
+          </column>
+          <column name="备注2">
+            <value>vendorInfoRemark</value>
+          </column>
+          <column name="品类一级">
+            <value>classfyOne</value>
+          </column>
+          <column name="二级">
+            <value>classfyTwo</value>
+          </column>
+          <column name="三级">
+            <value>classfyThree</value>
+          </column>
+          <column name="四级">
+            <value>classfyFour</value>
+          </column>
+          <column name="供应商编码">
+            <value>vendorCode</value>
+          </column>
+        </row>
+      </values>
+    </subForm>
+    <subForm>
+      <definitions>
+        <column id="field0024" type="4" name="序号3" length="20"/>
+        <column id="field0025" type="0" name="序号4" length="5"/>
+        <column id="field0026" type="0" name="供应商编码2" length="255"/>
+        <column id="field0027" type="0" name="供应商名称2" length="255"/>
+        <column id="field0028" type="0" name="供应商等级2" length="255"/>
+        <column id="field0029" type="0" name="对应基地2" length="255"/>
+        <column id="field0030" type="0" name="备注4" length="255"/>
+        <column id="field0031" type="0" name="品类一级2" length="255"/>
+        <column id="field0032" type="0" name="二级2" length="255"/>
+        <column id="field0033" type="0" name="三级2" length="255"/>
+        <column id="field0034" type="0" name="四级2" length="255"/>
+      </definitions>
+      <values>
+        <row>
+          <column name="序号3">
+            <value/>
+          </column>
+          <column name="序号4">
+            <value/>
+          </column>
+          <column name="供应商编码2">
+            <value>vendorCode</value>
+          </column>
+          <column name="供应商名称2">
+            <value>vendorName</value>
+          </column>
+          <column name="供应商等级2">
+            <value>vendorLevel</value>
+          </column>
+          <column name="对应基地2">
+            <value>baseFactory</value>
+          </column>
+          <column name="备注4">
+            <value>vendorInfoRemark</value>
+          </column>
+          <column name="品类一级2">
+            <value>classfyOne</value>
+          </column>
+          <column name="二级2">
+            <value>classfyTwo</value>
+          </column>
+          <column name="三级2">
+            <value>classfyThree</value>
+          </column>
+          <column name="四级2">
+            <value>classfyFour</value>
+          </column>
+        </row>
+      </values>
+    </subForm>
+  </subForms>
+</formExport>

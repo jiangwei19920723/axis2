@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<formExport version="2.0">
+  <summary id="-2149685173129428977" name="formmain_0275"/>
+  <definitions/>
+  <values>
+    <column name="标题">
+      <value>invitation_title</value>
+    </column>
+    <column name="车型">
+      <value>car_type</value>
+    </column>
+    <column name="截止时间">
+      <value>offer_stop_date</value>
+    </column>
+    <column name="附件">
+      <value>invitation_file</value>
+    </column>
+    <column name="商务协同人员姓名">
+      <value>business_by</value>
+    </column>
+    <column name="商务协同人员电话">
+      <value>business_number</value>
+    </column>
+    <column name="技术协同人员姓名">
+      <value>technology_by</value>
+    </column>
+    <column name="技术协同人员电话">
+      <value>technology_number</value>
+    </column>
+    <column name="商务报价要求">
+      <value>scheme</value>
+    </column>
+    <column name="商务报价返回">
+      <value>scheme_back</value>
+    </column>
+    <column name="车型1">
+      <value/>
+    </column>
+    <column name="供应商名称1">
+      <value/>
+    </column>
+    <column name="联系人">
+      <value/>
+    </column>
+    <column name="联系电话">
+      <value/>
+    </column>
+    <column name="供应商编码1">
+      <value/>
+    </column>
+    <column name="评审日期">
+      <value/>
+    </column>
+    <column name="总分">
+      <value/>
+    </column>
+    <column name="项目总监意见">
+      <value/>
+    </column>
+  </values>
+  <subForms>
+    <subForm>
+      <definitions>
+        <column id="field0019" type="4" name="序号" length="20"/>
+        <column id="field0020" type="0" name="序号1.1" length="5"/>
+        <column id="field0021" type="0" name="物料编码1.1" length="255"/>
+        <column id="field0022" type="0" name="物料名称1.1" length="255"/>
+        <column id="field0023" type="0" name="单车用量1.1" length="255"/>
+        <column id="field0024" type="0" name="零件类型1.1" length="255"/>
+        <column id="field0025" type="0" name="模具利用1.1" length="255"/>
+        <column id="field0026" type="0" name="物料类别1.1" length="255"/>
+        <column id="field0027" type="0" name="技术状态描述1.1" length="255"/>
+        <column id="field0028" type="0" name="询价函发供应商1.1" length="255"/>
+        <column id="field0029" type="0" name="技术附件内部使用1.1" length="255"/>
+        <column id="field0030" type="0" name="模具描述1.1" length="255"/>
+        <column id="field0031" type="0" name="新选沿用1.1" length="255"/>
+        <column id="field0047" type="0" name="询价函附件" length="255"/>
+        <column id="field0048" type="0" name="技术附件" length="255"/>
+      </definitions>
+      <values>
+        <row>
+          <column name="序号">
+            <value/>
+          </column>
+          <column name="序号1.1">
+            <value/>
+          </column>
+          <column name="物料编码1.1">
+            <value>item_code</value>
+          </column>
+          <column name="物料名称1.1">
+            <value>item_name</value>
+          </column>
+          <column name="单车用量1.1">
+            <value>single_use</value>
+          </column>
+          <column name="零件类型1.1">
+            <value>item_type</value>
+          </column>
+          <column name="模具利用1.1">
+            <value>use_mould</value>
+          </column>
+          <column name="物料类别1.1">
+            <value>item_category</value>
+          </column>
+          <column name="技术状态描述1.1">
+            <value>tec_desc</value>
+          </column>
+          <column name="询价函发供应商1.1">
+            <value/>
+          </column>
+          <column name="技术附件内部使用1.1">
+            <value/>
+          </column>
+          <column name="模具描述1.1">
+            <value>mould_desc</value>
+          </column>
+          <column name="新选沿用1.1">
+            <value>new_or_old</value>
+          </column>
+          <column name="询价函附件">
+            <value/>
+          </column>
+          <column name="技术附件">
+            <value/>
+          </column>
+        </row>
+      </values>
+    </subForm>
+    <subForm>
+      <definitions>
+        <column id="field0032" type="4" name="序号2" length="20"/>
+        <column id="field0033" type="0" name="序号2.1" length="5"/>
+        <column id="field0034" type="0" name="供应商编码2.1" length="255"/>
+        <column id="field0035" type="0" name="供应商名称2.1" length="255"/>
+        <column id="field0036" type="0" name="备注2.1" length="255"/>
+        <column id="field0037" type="0" name="供应商状态2.1" length="255"/>
+        <column id="field0038" type="0" name="技术方案下载2.1" length="255"/>
+        <column id="field0052" type="0" name="是否通过" length="255"/>
+        <column id="field0051" type="0" name="总分1" length="255"/>
+      </definitions>
+      <values>
+        <row>
+          <column name="序号2">
+            <value/>
+          </column>
+          <column name="序号2.1">
+            <value/>
+          </column>
+          <column name="供应商编码2.1">
+            <value>vendor_code</value>
+          </column>
+          <column name="供应商名称2.1">
+            <value>vendor_name</value>
+          </column>
+          <column name="备注2.1">
+            <value>requstVendorsRemark</value>
+          </column>
+          <column name="供应商状态2.1">
+            <value/>
+          </column>
+          <column name="技术方案下载2.1">
+            <value/>
+          </column>
+          <column name="是否通过">
+            <value>tecPassStatus</value>
+           </column>
+          <column name="总分1">
+            <value>TecScore</value>
+          </column>
+        </row>
+      </values>
+    </subForm>
+    <subForm>
+      <definitions>
+        <column id="field0039" type="0" name="序号3" length="255"/>
+        <column id="field0040" type="0" name="序号3.1" length="255"/>
+        <column id="field0041" type="0" name="类别3.1" length="255"/>
+        <column id="field0042" type="0" name="分项3.1" length="255"/>
+        <column id="field0043" type="0" name="评分标准3.1" length="255"/>
+        <column id="field0044" type="0" name="评分3.1" length="255"/>
+        <column id="field0045" type="0" name="备注3.1" length="255"/>
+        <column id="field0046" type="0" name="评审记录3.1" length="255"/>
+        <column id="field0049" type="0" name="供应商名称3.2" length="255"/>
+        <column id="field0050" type="0" name="供应商名称3.1" length="255"/>
+      </definitions>
+      <values>
+        <row>
+          <column name="序号3">
+            <value/>
+          </column>
+          <column name="序号3.1">
+            <value/>
+          </column>
+          <column name="类别3.1">
+            <value/>
+          </column>
+          <column name="分项3.1">
+            <value/>
+          </column>
+          <column name="评分标准3.1">
+            <value/>
+          </column>
+          <column name="评分3.1">
+            <value/>
+          </column>
+          <column name="备注3.1">
+            <value/>
+          </column>
+          <column name="评审记录3.1">
+            <value/>
+          </column>
+          <column name="供应商名称3.2">
+            <value/>
+          </column>
+          <column name="供应商名称3.1">
+            <value/>
+          </column>
+        </row>
+      </values>
+    </subForm>
+  </subForms>
+</formExport>

@@ -1,0 +1,86 @@
+
+<formExport version="2.0">
+  <summary id="-2445408260840208310" name="formmain_0268"/>
+  <definitions/>
+  <values>
+    <column name="供应商名称">
+      <value>vendorName</value>
+    </column>
+    <column name="供应商编码">
+      <value>vendorCode</value>
+    </column>
+    <column name="初始评价得分">
+      <value>startScore</value>
+    </column>
+    <column name="初始评价等级">
+      <value>startLevel</value>
+    </column>
+    <column name="现评价得分">
+      <value>nowScore</value>
+    </column>
+    <column name="现评价等级">
+      <value>nowLevel</value>
+    </column>
+    <column name="供货基地">
+      <value>productBase</value>
+    </column>
+    <column name="评价关键项">
+      <value>keyItem</value>
+    </column>
+    <column name="处理建议">
+      <value>advice</value>
+    </column>
+    <column name="申请部门">
+      <value>createDepart</value>
+    </column>
+    <column name="申请人">
+      <value>createBy</value>
+    </column>
+    <column name="冻结附件">
+      <value>eliminateFile</value>
+    </column>
+    <column name="备注">
+      <value>remark</value>
+    </column>
+    <column name="采购经理审批意见">
+      <value/>
+    </column>
+    <column name="采购总经理审批意见">
+      <value/>
+    </column>
+  </values>
+  <subForms>
+    <subForm>
+      <definitions>
+        <column id="field0016" type="4" name="序号1.1" length="20"/>
+        <column id="field0017" type="0" name="序号1.2" length="5"/>
+        <column id="field0018" type="0" name="一级1.1" length="255"/>
+        <column id="field0019" type="0" name="二级1.2" length="255"/>
+        <column id="field0020" type="0" name="三级1.3" length="255"/>
+        <column id="field0021" type="0" name="四级1.1" length="255"/>
+      </definitions>
+      <values>
+        <row>
+          <column name="序号1.1">
+            <value/>
+          </column>
+          <column name="序号1.2">
+            <value/>
+          </column>
+          <column name="一级1.1">
+            <value>classfyOne</value>
+          </column>
+          <column name="二级1.2">
+            <value>classfyTwo</value>
+          </column>
+          <column name="三级1.3">
+            <value>classfyThree</value>
+          </column>
+          <column name="四级1.1">
+            <value>classfyFour</value>
+          </column>
+        </row>
+      </values>
+    </subForm>
+  </subForms>
+</formExport>

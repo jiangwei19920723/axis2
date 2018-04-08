@@ -1,0 +1,131 @@
+<formExport version="2.0">
+  <summary id="-140515846041874743" name="formmain_0492"/>
+  <definitions/>
+  <values>
+    <column name="经理审批意见">
+      <value/>
+    </column>
+    <column name="总经理审批意见">
+      <value/>
+    </column>
+    <column name="manage_score_vendor">
+      <value>manageScoreVendor</value>
+    </column>
+    <column name="vendor_base_info_score_vendor">
+      <value>vendorBaseInfoScoreVendor</value>
+    </column>
+    <column name="cost_control_score_vendor">
+      <value>costControlScoreVendor</value>
+    </column>
+    <column name="finance_score_vendor">
+      <value>financeScoreVendor</value>
+    </column>
+    <column name="evaluate_score_vendor">
+      <value/>
+    </column>
+    <column name="source_score_vendor">
+      <value/>
+    </column>
+    <column name="sum_score_vendor">
+      <value>sumScoreVendor</value>
+    </column>
+    <column name="manage_score_factory">
+      <value>manageScoreFactory</value>
+    </column>
+    <column name="vendor_base_info_score_factory">
+      <value>vendorBaseInfoScoreFactory</value>
+    </column>
+    <column name="cost_control_score_factory">
+      <value>costControlScoreFactory</value>
+    </column>
+    <column name="finance_score_factory">
+      <value>financeScoreFactory</value>
+    </column>
+    <column name="evaluate_score_factory">
+      <value/>
+    </column>
+    <column name="source_score_factory">
+      <value/>
+    </column>
+    <column name="sum_score_factory">
+      <value>sumScoreFactory</value>
+    </column>
+    <column name="business_advantage">
+      <value>businessAdvantage</value>
+    </column>
+    <column name="business_inferiority">
+      <value>businessInferiority</value>
+    </column>
+    <column name="business_conclusion">
+      <value>businessConclusion</value>
+    </column>
+    <column name="business_level">
+      <value>businessLevel</value>
+    </column>
+    <column name="business_yes_or_no">
+      <value>businessYesOrNo</value>
+    </column>
+    <column name="introduction_score_vendor">
+      <value/>
+    </column>
+    <column name="dfma_score_vendor">
+      <value/>
+    </column>
+    <column name="introduction_score_factory">
+      <value/>
+    </column>
+    <column name="dfma_score_factory">
+      <value/>
+    </column>
+  </values>
+  <subForms>
+    <subForm>
+      <definitions>
+        <column id="field0026" type="0" name="vendor_name" length="255"/>
+        <column id="field0027" type="0" name="vendor_mail" length="255"/>
+        <column id="field0028" type="0" name="contact" length="255"/>
+        <column id="field0029" type="0" name="telephone" length="255"/>
+      </definitions>
+      <values>
+        <row>
+          <column name="vendor_name">
+            <value>vendorName</value>
+          </column>
+          <column name="vendor_mail">
+            <value>vendorMail</value>
+          </column>
+          <column name="contact">
+            <value>contact</value>
+          </column>
+          <column name="telephone">
+            <value>telephone</value>
+          </column>
+        </row>
+      </values>
+    </subForm>
+    <subForm>
+      <definitions>
+        <column id="field0030" type="0" name="classfy_one" length="255"/>
+        <column id="field0031" type="0" name="classfy_two" length="255"/>
+        <column id="field0032" type="0" name="classfy_three" length="255"/>
+        <column id="field0033" type="0" name="classfy_four" length="255"/>
+      </definitions>
+      <values>
+        <row>
+          <column name="classfy_one">
+            <value>classfyOne</value>
+          </column>
+          <column name="classfy_two">
+            <value>classfyTwo</value>
+          </column>
+          <column name="classfy_three">
+            <value>classfyThree</value>
+          </column>
+          <column name="classfy_four">
+            <value>classfyFour</value>
+          </column>
+        </row>
+      </values>
+    </subForm>
+  </subForms>
+</formExport>

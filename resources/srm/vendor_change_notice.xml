@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<formExport version="2.0">
+  <summary id="1819446677699510445" name="formmain_0227"/>
+  <definitions/>
+  <values>
+    <column name="主题">
+      <value>theme</value>
+    </column>
+    <column name="发出日期">
+      <value>create_time</value>
+    </column>
+    <column name="有效期">
+      <value>expiry_time</value>
+    </column>
+    <column name="备注">
+      <value>remark</value>
+    </column>
+    <column name="供应商名称旧">
+      <value>vendor_name_old</value>
+    </column>
+    <column name="营业执照注册号旧">
+      <value>business_license_number_before</value>
+    </column>
+    <column name="组织机构代码旧">
+      <value>org_code_before</value>
+    </column>
+    <column name="联系方式旧">
+      <value>contact_number_before</value>
+    </column>
+    <column name="变更品类">
+      <value>change_mtl</value>
+    </column>
+    <column name="营业执照注册号新">
+      <value>business_license_number</value>
+    </column>
+    <column name="组织机构代码新">
+      <value>org_code</value>
+    </column>
+    <column name="联系方式新">
+      <value>contact_number</value>
+    </column>
+    <column name="法人代表旧">
+      <value>corporate_old</value>
+    </column>
+    <column name="注册地址省份旧">
+      <value>address_old_province</value>
+    </column>
+    <column name="注册地址市区旧">
+      <value>address_old_cities</value>
+    </column>
+    <column name="注册地址区县旧">
+      <value>address_old_country</value>
+    </column>
+    <column name="注册地址详情旧">
+      <value>address_old_addr</value>
+    </column>
+    <column name="生产地址省份旧">
+      <value>factory_province_old</value>
+    </column>
+    <column name="生产地址市区旧">
+      <value>factory_cities_old</value>
+    </column>
+    <column name="生产地址区县旧">
+      <value>factory_country_old</value>
+    </column>
+    <column name="域22">
+      <value/>
+    </column>
+    <column name="生产地址详情旧">
+      <value>factory_address_old</value>
+    </column>
+    <column name="开户行旧">
+      <value>open_bank_old</value>
+    </column>
+    <column name="账号旧">
+      <value>account_old</value>
+    </column>
+    <column name="税号旧">
+      <value>tax_number_old</value>
+    </column>
+    <column name="供应商名称新">
+      <value>vendor_name_after</value>
+    </column>
+    <column name="法人代表新">
+      <value>corporate</value>
+    </column>
+    <column name="注册地址省份新">
+      <value>address_province</value>
+    </column>
+    <column name="注册地址区县新">
+      <value>address_country</value>
+    </column>
+    <column name="注册地址市区新">
+      <value>address_cities</value>
+    </column>
+    <column name="注册地址详情新">
+      <value>address_addr</value>
+    </column>
+    <column name="生产地址省份新">
+      <value>factory_province</value>
+    </column>
+    <column name="生产地址市区新">
+      <value>factory_cities</value>
+    </column>
+    <column name="生产地址区县新">
+      <value>factory_country</value>
+    </column>
+    <column name="生产地址详情新">
+      <value>factory_address</value>
+    </column>
+    <column name="开户行新">
+      <value>open_bank</value>
+    </column>
+    <column name="账号新">
+      <value>account</value>
+    </column>
+    <column name="税号新">
+      <value>tax_number</value>
+    </column>
+    <column name="采购经理审批意见">
+      <value/>
+    </column>
+    <column name="采购总经理审批意见">
+      <value/>
+    </column>
+    <column name="创建">
+      <value>create_by</value>
+    </column>
+  </values>
+  <subForms/>
+</formExport>

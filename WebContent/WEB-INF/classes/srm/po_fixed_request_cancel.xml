@@ -1,0 +1,135 @@
+<formExport version="2.0">
+  <summary id="9116738958573260277" name="formmain_0271"/>
+  <definitions/>
+  <values>
+    <column name="申请人">
+      <value>create_by</value>
+    </column>
+    <column name="主题">
+      <value>theme</value>
+    </column>
+    <column name="中止理由">
+      <value>reason</value>
+    </column>
+    <column name="申请车型">
+      <value>car_type</value>
+    </column>
+    <column name="基地">
+      <value>base_factory</value>
+    </column>
+    <column name="设计人">
+      <value>fixed_by</value>
+    </column>
+    <column name="是否技术方案评审">
+      <value>tec_review</value>
+    </column>
+    <column name="申请部门">
+      <value>fixed_dept</value>
+    </column>
+    <column name="申请时间">
+      <value>create_time</value>
+    </column>
+    <column name="联系电话">
+      <value>phone</value>
+    </column>
+    <column name="备注信息">
+      <value>remark</value>
+    </column>
+    <column name="项目工程师审批意见">
+      <value/>
+    </column>
+    <column name="项目总监审批意见">
+      <value/>
+    </column>
+  </values>
+  <subForms>
+    <subForm>
+      <definitions>
+        <column id="field0014" type="4" name="序号1" length="20"/>
+        <column id="field0015" type="0" name="序号1.1" length="5"/>
+        <column id="field0016" type="0" name="物料编码1" length="255"/>
+        <column id="field0017" type="0" name="物料名称1" length="255"/>
+        <column id="field0018" type="0" name="零件类型1" length="255"/>
+        <column id="field0019" type="0" name="模具利用1" length="255"/>
+        <column id="field0020" type="0" name="单车用量1" length="255"/>
+        <column id="field0021" type="0" name="物料类型1" length="255"/>
+        <column id="field0022" type="0" name="技术状态描述1" length="255"/>
+        <column id="field0023" type="0" name="询价函附件发供应商" length="255"/>
+        <column id="field0024" type="0" name="技术附件内部使用1" length="255"/>
+        <column id="field0025" type="0" name="模具描述1" length="255"/>
+        <column id="field0026" type="0" name="新选沿用1" length="255"/>
+      </definitions>
+      <values>
+        <row>
+          <column name="序号1">
+            <value/>
+          </column>
+          <column name="序号1.1">
+            <value/>
+          </column>
+          <column name="物料编码1">
+            <value>item_code</value>
+          </column>
+          <column name="物料名称1">
+            <value>item_name</value>
+          </column>
+          <column name="零件类型1">
+            <value>item_type</value>
+          </column>
+          <column name="模具利用1">
+            <value>use_mould</value>
+          </column>
+          <column name="单车用量1">
+            <value>single_use</value>
+          </column>
+          <column name="物料类型1">
+            <value>item_category</value>
+          </column>
+          <column name="技术状态描述1">
+            <value>tec_desc</value>
+          </column>
+          <column name="询价函附件发供应商">
+            <value>file_to_vendor_file</value>
+          </column>
+          <column name="技术附件内部使用1">
+            <value>file_to_onwer_file</value>
+          </column>
+          <column name="模具描述1">
+            <value>mould_desc</value>
+          </column>
+          <column name="新选沿用1">
+            <value>new_or_old</value>
+          </column>
+        </row>
+      </values>
+    </subForm>
+    <subForm>
+      <definitions>
+        <column id="field0027" type="4" name="序号" length="20"/>
+        <column id="field0028" type="0" name="序号2" length="5"/>
+        <column id="field0029" type="0" name="供应商编码2" length="255"/>
+        <column id="field0030" type="0" name="供应商名称2" length="255"/>
+        <column id="field0031" type="0" name="备注2" length="255"/>
+      </definitions>
+      <values>
+        <row>
+          <column name="序号">
+            <value/>
+          </column>
+          <column name="序号2">
+            <value/>
+          </column>
+          <column name="供应商编码2">
+            <value>vendor_code</value>
+          </column>
+          <column name="供应商名称2">
+            <value>vendor_name</value>
+          </column>
+          <column name="备注2">
+            <value/>
+          </column>
+        </row>
+      </values>
+    </subForm>
+  </subForms>
+</formExport>

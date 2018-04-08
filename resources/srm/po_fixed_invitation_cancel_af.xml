@@ -1,0 +1,59 @@
+<formExport version="2.0">
+  <summary id="-6111826524977740130" name="formmain_0283"/>
+  <definitions/>
+  <values>
+    <column name="申请人">
+      <value>create_by</value>
+    </column>
+    <column name="主题">
+      <value>theme</value>
+    </column>
+    <column name="中止理由">
+      <value>reason</value>
+    </column>
+    <column name="项目工程师审批意见">
+      <value/>
+    </column>
+    <column name="项目总监审批意见">
+      <value/>
+    </column>
+  </values>
+  <subForms>
+    <subForm>
+      <definitions>
+        <column id="field0006" type="0" name="序号1" length="255"/>
+        <column id="field0007" type="0" name="序号1.1" length="255"/>
+        <column id="field0008" type="0" name="物料编码1.1" length="255"/>
+        <column id="field0009" type="0" name="物料名称1.1" length="255"/>
+        <column id="field0010" type="0" name="供应商名称1.1" length="255"/>
+        <column id="field0011" type="0" name="供应商编码1.1" length="255"/>
+        <column id="field0012" type="0" name="供货基地1.1" length="255"/>
+      </definitions>
+      <values>
+        <row>
+          <column name="序号1">
+            <value/>
+          </column>
+          <column name="序号1.1">
+            <value/>
+          </column>
+          <column name="物料编码1.1">
+            <value>item_code</value>
+          </column>
+          <column name="物料名称1.1">
+            <value>item_name</value>
+          </column>
+          <column name="供应商名称1.1">
+            <value>vendor_name</value>
+          </column>
+          <column name="供应商编码1.1">
+            <value>vendor_code</value>
+          </column>
+          <column name="供货基地1.1">
+            <value>base_factory</value>
+          </column>
+        </row>
+      </values>
+    </subForm>
+  </subForms>
+</formExport>
