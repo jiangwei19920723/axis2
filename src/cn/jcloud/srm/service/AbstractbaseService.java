@@ -48,5 +48,10 @@ public class AbstractbaseService<T,D extends BaseDao<T>> implements BaseService<
 	public T getById(int id) {
 		return dao.findById(id);
 	}
+	
+	@Override
+	public T getById(long id) {
+		return dao.findById(id);
+	}
 
 }

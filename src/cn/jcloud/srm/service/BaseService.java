@@ -16,5 +16,6 @@ public interface BaseService<T> {
 	public void delete(T entity);
 	public void saves(List<T> entitys);
 	public T getById(int id);
+	public T getById(long id);
 
 }

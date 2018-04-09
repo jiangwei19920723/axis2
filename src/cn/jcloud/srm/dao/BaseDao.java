@@ -15,5 +15,6 @@ public interface BaseDao<T> {
 	public void update(T entity);
 	public void delete(T entity);
 	public T findById(int id);
+	public T findById(long id);
 	public void saves(List<T> entitys);
 }

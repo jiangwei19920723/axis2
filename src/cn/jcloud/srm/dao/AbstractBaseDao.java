@@ -44,6 +44,13 @@ public abstract class AbstractBaseDao<T> implements BaseDao<T> {
 		query.setParameter("id", id);
 		return (T) query.uniqueResult();
 	}
+	@Override
+	@SuppressWarnings("unchecked")
+	public T findById(long id) {
+		Query query = getSession().createQuery("from "+getClass().getSimpleName()+" where id=:id");
+		query.setParameter("id", id);
+		return (T) query.uniqueResult();
+	}
 
 	@Override
 	public void saves(List<T> entitys) {
